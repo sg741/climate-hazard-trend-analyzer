@@ -1,5 +1,25 @@
 # Climate Hazard Trend Analyzer
 
+A full-stack climate analytics application that analyzes historical weather data, detects heatwave events, and identifies long-term trends.
+
+## Live Demo
+https://climate-hazard-trend-analyzer-omega.vercel.app/
+
+## Tech Stack
+- **Frontend:** React, Vite
+- **Backend:** Python, FastAPI
+- **Database:** MongoDB Atlas
+- **Weather Data:** Open-Meteo Archive API
+- **Deployment:** Vercel and Render
+
+## Features
+- Historical heatwave detection
+- Temperature percentile-based threshold
+- Annual heatwave frequency and duration analysis
+- Statistical trend insights
+- CSV export
+- MongoDB caching for analysis results# Climate Hazard Trend Analyzer
+
 A full-stack case-study implementation for Dygnify Ventures Pvt Ltd. The first supported hazard is **heatwaves**.
 
 ## Features

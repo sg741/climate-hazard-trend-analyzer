@@ -6,7 +6,7 @@ import { Activity, ArrowUpRight, CalendarDays, MapPin, ThermometerSun, Wind, Dat
 import './styles.css';
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Tooltip, Legend, Filler);
 
-const API = (import.meta.env.VITE_API_URL || 'http://localhost:8000').replace(/\/$/, '');
+const API = (import.meta.env.VITE_API_URL || 'http://127.0.0.1:8001').replace(/\/$/, '');
 const fmt = n => n === null || n === undefined ? 'N/A' : Number(n).toLocaleString();
 function App() {
   const [city,setCity]=useState('Pune');
